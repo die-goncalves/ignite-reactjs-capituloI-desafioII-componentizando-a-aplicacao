@@ -45,7 +45,7 @@ Essa aplicação foi desenvolvida com o propósito de fixar o conhecimento sobre
 2. Instalar as depêndencias:
 ```sh
   # Entre no diretório do repositório clonado
-  $ cd https://github.com/die-goncalves/ignite-reactjs-capituloI-desafioII-componentizando-a-aplicacao
+  $ cd ignite-reactjs-capituloI-desafioII-componentizando-a-aplicacao
   # Instale as dependências do projeto.
   $ yarn #ou $ npm install
 ```
