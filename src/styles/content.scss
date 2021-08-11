@@ -1,11 +1,18 @@
 main {
   width: 100%;
-  margin-top: 5.625rem;
+  height: 82.75%;
+}
 
-  .movies-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4.75rem;
-    list-style: none;
+.ReactVirtualized__Grid{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer{
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

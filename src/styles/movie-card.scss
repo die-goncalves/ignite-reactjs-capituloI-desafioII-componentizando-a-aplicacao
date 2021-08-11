@@ -1,9 +1,12 @@
 .movie-card {
   position: relative;
+  width: 14.31rem;
+  height: 21.25rem;
 
   img {
-    width: 14.31rem;
-    height: 21.25rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   > div {

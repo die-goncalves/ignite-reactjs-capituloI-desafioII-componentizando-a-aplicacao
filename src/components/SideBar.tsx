@@ -23,7 +23,7 @@ export function SideBar(props: SideBarProps) {
       setGenres(response.data);
     });
   }, []);
-  
+
   return (
     <nav className="sidebar">
       <span>Watch<p>Me</p></span>
@@ -31,6 +31,7 @@ export function SideBar(props: SideBarProps) {
       <div className="buttons-container">
         {genres.map(genre => (
           <Button
+            key={String(genre.id)}
             id={String(genre.id)}
             title={genre.title}
             iconName={genre.name}
